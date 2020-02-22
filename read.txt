@@ -1,0 +1,19 @@
+git管理代码
+  1.初始化git仓库
+    git init
+  2.将当前目录添加暂缓区
+    git add .
+  3.提交到本地仓库
+    git commit -m"初始化项目"
+  4.推送到github
+    1.在github中创建项目
+    2.关联本地仓库
+      git remote add origin https://github.com/c3310/wxpg.git
+    3.推送到github
+    git push -u origin master
+  5.下载到本地(整个项目文件夹))
+    git clone https://github.com/c3310/wxpg.git
+
+  git log: 查看所有提交
+  git reset 2c18ae62 :回退到2c18ae62的提交
+  git reset --hard 2c18ae62: --hard 当有修改未提交时，强制回退
