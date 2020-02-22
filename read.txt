@@ -1,0 +1,17 @@
+git管理代码
+  1.初始化git仓库
+    git init
+  2.将当前目录添加暂缓区
+    git add .
+  3.提交到本地仓库
+    git commit -m"初始化项目"
+  4.推送到github
+    1.在github中创建项目
+    2.关联本地仓库
+      git remote add origin https://github.com/c3310/wxpg.git
+    3.推送到github
+    git push -u origin master
+  5.下载到本地(整个项目文件夹))
+    git clone https://github.com/c3310/wxpg.git
+
+  
